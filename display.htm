@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        padding: 40px;
+      }
+      .block {
+        padding: 20px;
+        width: max-content;
+        border: 1px solid grey;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+      }
+
+      .block-1,
+      .block-2 {
+        width: 120px;
+        height: 40px;
+      }
+
+      .block-1 {
+        margin-right: 30px;
+        background-color: rgb(224, 110, 0);
+      }
+      .block-2 {
+        background-color: rgb(77, 77, 234);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="block">
+      <button class="block-1" onclick="alert('hello word')"></button>
+      <div class="block-2"></div>
+    </div>
+  </body>
+</html>
